@@ -25,6 +25,57 @@ Puedes instalar las librerías necesarias con el siguiente comando:
 ```bash
 pip install tabulate
 
+---
+## Menu principal
+
+BIENVENIDO AL TASK MANAGER
+Selecciona una opcion:
+1. Mostrar todas las tareas
+2. Ingresar una nueva tarea
+3. Eliminar todas las tareas
+4. Crear archivo de tareas
+5. Salir
+
+---
+##Opciones del menu
+
+1.Mostrar todas las tareas: Muestra una tabla con todas las tareas almacenadas.
+
+2.Ingresar una nueva tarea: Permite agregar una nueva tarea con título y descripción.
+
+3.Eliminar todas las tareas: Borra todas las tareas del archivo JSON.
+
+4.Crear archivo de tareas: Crea el archivo JSON si no existe.
+
+5.Salir: Cierra el programa.
+
+
+---
+
+##Tabla de tareas
+
+╒════╤══════════════════════╤══════════════════════════╤══════════════╤═══════════════════════╕
+│    │ titulo               │ descripcion              │ completado   │ Fecha de Creacion     │
+╞════╪══════════════════════╪══════════════════════════╪══════════════╪═══════════════════════╡
+│  0 │ Comprar víveres      │ Ir al supermercado       │ False        │ 2023-10-05 12:34:56   │
+├────┼──────────────────────┼──────────────────────────┼──────────────┼───────────────────────┤
+│  1 │ Estudiar Python      │ Repasar funciones        │ False        │ 2023-10-05 13:00:00   │
+╘════╧══════════════════════╧══════════════════════════╧══════════════╧═══════════════════════╛
+
+
+---
+
+##Estura de JSON
+
+[
+    {
+        "titulo": "Nombre de la tarea",
+        "descripcion": "Descripción de la tarea",
+        "completado": false,
+        "Fecha de Creacion": "2023-10-05 12:34:56"
+    },
+    ...
+]
 
 
 
